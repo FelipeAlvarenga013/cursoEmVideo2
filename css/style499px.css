@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 499px) {
+    header#cabeca {
+        height: auto;
+    }
+
+    header
+    article#art1>img {
+        width: 50%;
+        height: 50%;
+    }
+
+    header
+    article
+    p#p1Menu {
+        width: 100%;
+    }
+
+    header
+    article
+    p#p1Menu
+    #span1 {
+        font-size: 245%;
+    }
+
+    header
+    article
+    p#p2Menu {
+        width: 100%;
+        font-size: 100%;
+    }
+
+    #corpo {
+        max-width: 100vw;
+        overflow: hidden;
+    }
+
+    header
+    article#artimg {
+        display: flex;
+        margin-top: -18px;
+        height: 100%;
+        justify-content: end;
+    }
+
+    article
+    section#imgfundo2 {
+        height: 263px;
+    }
+
+    article
+    section#imgfundo2
+    img {
+        width: 215px;
+        height: auto;
+    }
+
+    main
+    section
+    article#txt01 {
+        margin: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    main
+    section
+    article
+    #p1main {
+        width: auto;
+        word-wrap: break-word;
+    }
+
+    main
+    section
+    article
+    #but02 {
+        width: 100%;
+        text-align: center;
+    }
+
+    main
+    section
+    article
+    #but02>button {
+        max-width: 100%;
+        margin: 69px 0 0 0;
+    }
+
+    main
+    section
+    article
+    #p1main {
+        width: auto;
+    }
+
+    main
+    section
+    article#img01 {
+        width: 100%;
+        margin: 19px 84px 0 19px;
+    }
+
+    main
+    section
+    article#img01>img {
+        max-width: 80%;
+        min-width: 163px;
+    }
+
+    main
+    section
+    article#txt02 {
+        width: 100%;
+    }
+
+    main
+    section
+    article#txt02>p:nth-child(2) {
+        width: 100%;
+    }
+
+    main
+    section
+    article#but03 {
+        width: 100%;
+    }
+
+    main
+    section
+    article#but03
+    button {
+        width: 100%;
+        min-width: 128px;
+        max-width: 238px;
+        font-size: 71%;
+    }
+
+    main
+    section
+    article#img02 {
+        width: 100%;
+    }
+
+    main
+    section
+    article#img02>img {
+        width: 100%;
+    }
+
+    section
+    article#txt03 {
+        width: 100%;
+    }
+
+    section
+    article#txt03>p {
+        width: 100%;
+        font-size: 2.1em;
+    }
+
+    section#container05
+    .Miniparagrafo>p {
+        width: auto;
+    }
+
+    section#container05
+    article#imgsFinais>a>img {
+        width: 120px;
+    }
+
+    section#container05
+    .Miniparagrafo>a>p {
+        width: auto;
+    }
+
+    section#container06
+    article#txtFinais01 {
+        max-width: 100%;
+    }
+
+    section#container06
+    article#txtFinais01>p {
+        width: 100%;
+    }
+
+    section
+    article#txtFinais03 {
+        max-width: 100%;
+    }
+
+    main
+    #container03
+    article.mainLop {
+        height: 500px;
+    }
+
+    main
+    section
+    article.artLop {
+        width: 100vmin;
+    }
+}
+

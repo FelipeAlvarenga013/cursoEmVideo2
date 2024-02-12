@@ -1,0 +1,728 @@
+@charset "UTF-8";
+/* import font-family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Fontes Google */
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Parte cabeça */
+header#cabeca {
+    width: 100vw;
+    
+    padding-top: 56px;
+    margin-top: -56px;
+    background: url(../imgs/asset\ 19.jpeg) no-repeat;
+    background-position: 50% 52px;
+    background-size: cover;
+}
+
+/* Image do Professor */
+header
+article#artimg {
+    display: flex;
+    margin-top: -13px;
+    height: calc(58% + -88px);
+    justify-content: center;
+}
+
+header
+article#art1>img {
+    height: 54px;
+}
+
+header>
+article
+section{  
+    height: auto;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+article
+section#imgfundo2{
+    width: 563px;
+    padding-left: 174px;
+    height: 330px;
+    text-align: right;
+}
+
+
+
+/* Menu primeiro*/
+section#fundo2
+article#art1{
+    display: flex;
+    padding: 18px 20px 0 27px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* style perifericos parte do menu primeiro*/
+.fa-solid {
+    font-size: 30px;
+    padding-right: 30px;
+    align-self: center;
+}
+
+/* Style do elemento pai dos paragrafos */
+article#art2 {
+    padding: 50px;
+    padding: 50px 0 30px 30px;
+}
+
+/* style de todos os paragrafos que estiver dentro do elemento article */
+header
+article
+p {
+    color: rgb(255,255,255);
+}
+
+/* style do paragrafo principal dentro do elementos header e atricle */
+header
+article
+p#p1Menu {
+    width: 350px;
+    line-height: 35px;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* style do paragrafo secundrio dentro do elementos header e atricle */
+header
+article
+p#p2Menu {
+    width: 365px;
+    font-size: 19px;
+    padding-top: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: 'roboto';
+}
+
+/* Style do span que esta dentro do primeiro paragrafoo */
+header
+#p1Menu
+#span1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+/* style do button*/
+header
+#art3
+#but01 {
+    width: 160px;
+    padding: 18px;
+    color: #fff;
+    font-size: 1em;
+    margin: 0 0 0 30px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-family: 'roboto',sans-serif;
+}
+
+header
+#art3
+#but01:hover {
+    color: blue;
+    transition-duration: 0.6s;
+    background-color: #fff;
+}
+
+/* style do coteudo do corpo */
+
+/* style do conteudo secundario */
+main
+section#container01 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+/* style do caixa do paragrafo */
+main
+section
+article#txt01 {
+    width: 480px;
+    height: 452px;
+    padding: 59px 0 0 0;
+    margin-right: 66px;
+    background-color: #fff;
+    font-family: 'roboto',Arial, Helvetica, sans-serif;
+}
+
+/* Style do primeiro paragrafo do main */
+main 
+section
+article
+#p1main {
+    margin: auto;
+    width: 350px;
+    font-size: 3em;
+    font-weight: 700;
+    color: #1C0051;
+    line-height: 58px;
+    padding: 0px 0px 0px 19px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+
+/* style de primeiro button do main */
+main
+section
+article
+#but02>
+button {
+    color: #fff;
+    border: none;
+    width: 173px;
+    padding: 18px;
+    font-size: 1.1em;
+    font-weight: 100;
+    border-radius: 43px;
+    font-family: 'roboto';
+    margin: 69px 0 0 62px;
+    background-color: #2727FF;
+}
+
+/*  style da caixa da primeira foto do main */
+main
+section
+article#img01 {
+    margin: 19px 84px 0 0;
+}
+
+/* style da primeira img do main */
+main
+section
+article#img01 > img{
+    width: 375px;
+}
+
+/* style do #container02 do main */
+main
+section#container02 {
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* style do article#txt02 */
+main
+section
+article#txt02 {
+    padding: 129px 0px 0px 34px;
+}
+
+/* style do segundo paragrafo do main */
+main
+section
+article#txt02>p:nth-child(1){
+    line-height: 1;
+    color: #1C0051;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'roboto';
+}
+
+main
+section
+article#txt02>p:nth-child(2) {
+    width: 420px;
+    color: #1C0051;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'roboto';
+    padding: 20px 0px 0px 0px;
+}
+
+
+/* style do segundo buttom do main*/
+main
+section
+article#but03 {
+    padding: 60px 0px 0px 0px;
+}
+
+main
+section
+article#but03
+button {
+    width: 280px;
+    line-height: 46px;
+    height: 51px;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #3434FF;
+    border-radius: 50px;
+    border: 1px solid #3434FF;
+    font-family: 'roboto';  
+    transition: .7s;
+}
+
+main
+section
+article#but03
+button:hover {
+    background-color: #3434FF;
+}
+
+main
+section
+article#but03
+button>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main
+section
+article#but03
+button>a:hover{
+    color: #fff;
+}
+
+/* style da imagem da mão */
+main
+section
+article#img02 {
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+}
+
+main
+section
+article#img02>img {
+    width: 360px;
+}
+
+/* style do segundo container do main  "container03"*/
+
+main
+section#container03 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* style do paragrafo do container03 */
+section
+article#txt03 {
+    width: 319px;
+    margin: auto;
+    padding: 55px 0px 0px 0px;
+}
+
+section
+article#txt03>p {
+    font-size: 2.3em;
+    color: #1C0051;
+    font-weight: bold;
+    font-family: 'roboto',sans-serif;
+}
+
+/* style do lop1 */
+main
+#container03
+article#mainLop01 {
+    margin: 210px 20px 0 0px;
+    height: 500px;
+    width: 1500px;
+    overflow: hidden;
+    transform: translate(0vmin, 0px);
+}
+
+main
+#container03
+article#artN {
+    width: 89%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 10px 0 10px;
+}
+
+/* style do article#lop02 e article#lop03 */
+
+main
+#container03
+article.mainLop {
+    display: flex;
+}
+
+
+
+main
+#container03
+article#lop02 {
+    position: absolute;
+    transform: translate(100%,0);
+}
+
+main
+#container03
+article#lop03 {
+    position: absolute;
+    transform: translate(200%,0);
+}
+
+/* style do primeiro paragrafo do article#lop01 */
+main
+section
+article.mainLop
+p:nth-child(1) {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: 'roboto',sans-serif;
+}
+
+main
+section
+article.mainLop
+p:nth-child(2) {
+    
+    width: 88%;
+    font-size: 155%;
+    color: #3B3755;
+    line-height: 46px;
+    font-family: 'roboto',sans-serif;
+}
+
+main
+section
+article#mainLop02 {
+    position: absolute;
+    top: 0;
+    margin: 210px 20px 0 0px;
+    height: 500px;
+    width: 1500px;
+    overflow: hidden;
+    transform: translate(100vmin, 0px);
+}
+
+main
+section
+article.artLop {
+    height: 567px;
+    width: 489px;
+}
+
+
+
+main
+section
+article#lop01 {
+    position: absolute;
+}
+
+/* style do radio */
+
+main
+section
+article#radio01 {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+main
+section
+article#radio01
+i {
+    cursor: pointer;
+    margin-left: -29px;
+}
+
+/* style section#container04 */
+
+/* article#imgFundo3 */
+section
+article#imgFundo3,#imgFundo4 {
+    text-align: center;
+    background: #fff url('../imgs/asset\ 21.jpeg')  right no-repeat;
+    
+}
+
+section
+article
+article#imgDentrofundo3 {
+    padding: 70px 0 50px 0;
+}
+
+section
+article#txt04 {
+    margin: auto;
+    width: 419px;
+    text-align: left;
+    line-height: 1.3;
+    border-left: 2px solid #fff;
+}
+
+section
+article#txt04>p:nth-child(1) {
+    color: #fff;
+    padding-left: 39px;
+    font-family: 'roboto';
+}
+
+section
+article#txt04>p>span {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+section
+article#artBut
+#but04,#but05{
+    color: #260B59;
+    border: none;
+    width: 240px;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    font-family: 'roboto';
+    font-size: 1em;
+}
+
+section
+article#artBut
+#but04:hover,#but05:hover{
+    transition: 0.5s;
+    background-color:#ffffff9f;
+}
+
+section
+article#artBut {
+    padding: 40px 0 40px 0 ;
+}
+
+/* style article#imgFundo4 */
+section
+article#imgFundo4 {
+    
+}
+
+section
+article
+#imgDentrofundo4 {
+    padding: 40px 0 40px 0;
+}
+
+
+section
+article
+#txt05 {
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+section
+article
+#txt05>p:nth-child(1) {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+section
+article
+#txt05>p>span {
+    padding: 10px;
+    margin: auto;
+    line-height: 4;
+    font-weight: bold;
+    font-size: .8em;
+    border-radius: 10px;
+    background-color: #5F4176;
+}
+
+section
+article#artBut2 {
+    padding: 60px 0 50px 0;
+}
+
+section
+article#artBut2
+button#but05 {
+    width: 180px;
+}
+
+/* style section container05 */
+
+
+section#container05
+.Miniparagrafo {
+    padding: 60px 0 20px 0;
+}
+
+section#container05
+.Miniparagrafo>p {
+    color: #797F87;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-family: 'roboto';
+    
+}
+
+section#container05
+.Miniparagrafo>a>p {
+    color: #797F87;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+section#container05
+.Miniparagrafo>a>p:active {
+    transform: translate(0,1px);
+    
+}
+
+section#container05
+#miniP02 {
+    font-size: 0.8em;
+}
+
+section#container05
+#imgsFinais::after {
+    color: #797F87;
+    display: flex;
+    font-size: 13px;
+    padding: 30px 0 0 0;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    content: 'Carteirinha Estudatil';
+}
+
+
+
+@media screen and (max-width: 768px) {
+    section#container05
+    article#imgsFinais>a {
+        display: flex;
+        justify-content:center;
+        
+    }
+
+}
+
+/* style section#container06 */
+section#container06
+article#imgFinais02{
+    padding: 80px 0 0px 0;
+    text-align: center; 
+}
+
+section#container06
+article#txtFinais01 {
+    margin: auto;
+    width: 360px;
+}
+
+section#container06
+article#txtFinais01>p {
+    color: #797F87;
+    font-size: 0.8em;
+    font-family: 'roboto';
+}
+
+section
+article
+article#filhoDMenu {
+    display: inline-block;
+    padding-top: 40px;
+}
+
+section
+article#filhoDMenu
+aside {
+    width: 33px;
+    height: 3px;
+    border-radius: 10px;
+}
+
+section
+article#noticias01 {
+    padding: 30px 0 40px 0;
+}
+
+section
+article#txtFinais03 {
+    margin: auto;
+    width: 300px;
+}
+
+section
+article#txtFinais03
+p {
+    font-family: 'roboto';
+}
+
+section
+article#txtFinais03>p:nth-child(1) {
+    font-weight: bold;
+}
+
+section
+article#txtFinais03>a{
+    color: #797F87;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+section
+article#txtFinais03>a:nth-child(1n+2)>p{
+    padding: 15px 0 0px 30px;
+}
+
+section
+article#txtFinais04>p {
+    padding-top: 90px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'roboto';
+}
+
+footer
+article#roda-pe01 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer
+article#roda-pe01>p {
+    font-size: 0.7em;
+    font-family: 'roboto';
+}
+
+footer
+article>p>a {
+    color: #797F87;
+    font-weight: bold;
+    text-decoration: none;
+}
