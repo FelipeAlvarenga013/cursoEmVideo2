@@ -347,7 +347,7 @@ main
 #container03
 article#mainLop01 {
     margin: 210px 20px 0 0px;
-    height: 500px;
+    height: 580px;
     width: 1500px;
     overflow: hidden;
     transform: translate(0vmin, 0px);
@@ -415,7 +415,7 @@ article#mainLop02 {
     position: absolute;
     top: 0;
     margin: 210px 20px 0 0px;
-    height: 500px;
+    height: 584px;
     width: 1500px;
     overflow: hidden;
     transform: translate(100vmin, 0px);
@@ -441,7 +441,7 @@ article#lop01 {
 main
 section
 article#radio01 {
-    margin: 20px 0 0 0;
+    margin: 55px 0 0 0;
     text-align: center;
 }
 
